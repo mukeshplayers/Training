@@ -1,0 +1,33 @@
+Program1: 
+File Name: 1_Pointers.c
+Definition: Printing all alphabets using pointers.
+
+
+Program2: 
+File Name: 2_StructureProgram.c
+Definition: Program Definition: Accessing structure member through pointer using dynamic memory allocation
+What to use: To access structure member using pointers, memory can be allocated dynamically using malloc() function defined under "stdlib.h" header file.
+
+
+Program3: 
+File Name: 3_FileOperation.c
+Definition: File open, read, write and close operation copying file1.txt data into file2.txt
+What to use:
+1. fopen() function is used for opening a file.
+2. fgetc() function reads the character from current pointer’s position and upon successful read moves the pointer to next character in the file.
+3. fputc() writes a character (an unsigned char) specified by the argument char to the specified stream and advances the position indicator for the stream.
+3. The fclose() function is used for closing an opened file. As an argument you must provide a pointer to the file that you want to close.
+
+
+Program4:
+File Name: 4_FileMerging.c
+Program Definition: Merging two files into a third file.
+What to use:
+Open two files in read(r) mode, copy file contents into file pointers, open third file in write(w) mode and store it to file pointer.
+i.e. file1.txt + file2.txt = file3.txt
+
+
+Program5:
+File Name: 5_DataStructureStack.c
+Definition: Stack data structure implementation.
+Scenario: push, pop and display operation on stack.
